@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.textinput{
+    border: none;
+    border-bottom: 1px solid white;
+    width: 700px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+form{
+    width: 700px;
+}
+
+.user{
+    display: inline;
+}
+
+button{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.radio{
+    accent-color: transparent;
+}
